@@ -1,0 +1,120 @@
+* {
+  text-decoration: none;
+}
+
+[class*=item] {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  box-shadow: 5px 5px 10px black;
+}
+
+.links > a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+[class*=item]:hover {
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.foodBar > a:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  color: rgb(74, 74, 74);
+}
+
+.liFooter > a:hover {
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  color: black;
+  font-weight: 600;
+}
+#navBar #search, #navBar .search {
+  border-radius: 3px;
+}
+#navBar .navLogo {
+  width: 100px;
+}
+#navBar .links {
+  display: flex;
+  gap: 30px;
+}
+#navBar a {
+  color: black;
+}
+
+.foodBar {
+  display: flex;
+  justify-content: space-around;
+  border-top: solid black 1.5px;
+  border-bottom: solid black 1.5px;
+  padding: 3px;
+  color: black;
+  font-weight: 600;
+}
+.foodBar a {
+  color: black;
+}
+
+#grid {
+  margin: 20px 40px;
+}
+#grid .item {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
+  background-image: url(/image/bowl.png);
+}
+#grid p {
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+
+.sed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding: 20px;
+  background-color: black;
+  font-weight: 600;
+  color: white;
+}
+.footer .liFooter {
+  display: contents;
+  justify-content: space-around;
+  align-items: space-around;
+}
+.footer .liFooter a {
+  color: white;
+}
+.footer .liFooter p {
+  display: contents;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style_recipe.css.map */
